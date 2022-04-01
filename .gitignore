@@ -94,3 +94,7 @@ storm_analysis/c_libraries/rolling_ball_lib.dll
 storm_analysis/c_libraries/scmos_utilities.dll
 storm_analysis/c_libraries/tracker.dll
 storm_analysis/c_libraries/zernike.dll
+
+.idea
+.sconf_temp
+storm_analysis

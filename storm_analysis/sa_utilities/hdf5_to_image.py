@@ -90,7 +90,6 @@ def render2DImage(h5_name, category = None, offsets = None, scale = 2, sigma = N
                     renderImage(image, locs["x"], locs["y"], sigma)
             
         else:
-            print("Tracks not found, using localizations.")
             for fnum, locs in h5.localizationsIterator(fields = fields):
                 if ((fnum%2000)==0):
                     sys.stdout.write(".")
@@ -99,7 +98,6 @@ def render2DImage(h5_name, category = None, offsets = None, scale = 2, sigma = N
                 if locs is not None:
                     renderImage(image, locs["x"], locs["y"], sigma)
 
-    print()
     return image
 
 
