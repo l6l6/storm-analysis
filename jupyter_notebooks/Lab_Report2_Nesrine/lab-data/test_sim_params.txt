@@ -1,5 +1,0 @@
-{"background": {"class": "UniformBackground", "photons": "10"}}
-{"camera": {"class": "Ideal", "baseline": "100.0", "gain": "1.0"}}
-{"photophysics": {"class": "Duplicate", "h5_name": "sim_locs.hdf5", "cx": "None", "cy": "None", "z_offset": "None"}}
-{"psf": {"class": "GaussianPSF", "nm_per_pixel": "100.0"}}
-{"simulation": {"bin_file": "sim_locs.hdf5", "x_size": "512", "y_size": "512"}}

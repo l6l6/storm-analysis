@@ -13,7 +13,7 @@ import storm_analysis.sa_library.datareader as datareader
 import storm_analysis.sa_library.sa_h5py as saH5Py
 
 
-def overlayImage(movie_name, locs_name, frame_number, sx = 8, sy = 8):
+def overlayImage(movie_name, locs_name, frame_number, sx = 9, sy = 9):
     """
     Create an image of a frame with the localizations overlaid.
 
@@ -40,10 +40,10 @@ def overlayImage(movie_name, locs_name, frame_number, sx = 8, sy = 8):
             width = height = 5.0*locs["xsigma"][i]
         if "ysigma" in locs:
             height = 5.0*locs["ysigma"][i]
-        ellipse = patches.Ellipse((locs["x"][i], locs["y"][i]), width, height, facecolor='none', edgecolor='g', linewidth = 2)
+        ellipse = patches.Ellipse((locs["x"][i], locs["y"][i]), width, height, facecolor='none', edgecolor='r', linewidth = 1)
         ax.add_artist(ellipse)
         
-    #ax.scatter(locs["x"], locs["y"], s = 200,
+    ax.scatter(locs["x"], locs["y"])
     ax.set_title("Overlay Image")
 
     pyplot.show()

@@ -165,7 +165,6 @@ def render3DImage(h5_name, z_edges, category = None, offsets = None, scale = 2, 
                                     locs["y"][z_mask],
                                     sigma)
 
-    print()
     return images
 
 
