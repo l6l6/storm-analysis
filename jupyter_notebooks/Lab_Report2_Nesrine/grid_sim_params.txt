@@ -1,0 +1,5 @@
+{"background": {"class": "UniformBackground", "photons": "20"}}
+{"camera": {"class": "Ideal", "baseline": "100.0", "gain": "1.0"}}
+{"photophysics": {"class": "AlwaysOn", "photons": "2000"}}
+{"psf": {"class": "GaussianPSF", "nm_per_pixel": "100.0"}}
+{"simulation": {"bin_file": "grid_locs.hdf5", "x_size": "256", "y_size": "256"}}
