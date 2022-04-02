@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <settings>
-  <background_sigma type="float">11.0</background_sigma>
+  <background_sigma type="float">10.0</background_sigma>
   <camera_gain type="float">1.0</camera_gain>
   <camera_offset type="float">100.0</camera_offset>
   <descriptor type="string">1</descriptor>
@@ -16,6 +16,7 @@
   <radius type="float">0.0</radius>
   <roi_size type="int">11</roi_size>
   <sigma type="float">1.0964331210191083</sigma>
+  <sigma_range type="float-array">0.10964331210191083,1.0964331210191083</sigma_range>
   <start_frame type="int">-1</start_frame>
   <threshold type="float">6</threshold>
   <verbosity type="int">1</verbosity>
